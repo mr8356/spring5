@@ -4,11 +4,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 
 
 import example.boot.domain.Member;
 
+// @Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     // 아직 데이터베이스를 연결 안했으므로 간이로 데이터베이스(store해시맵) 과 id를 일일히 할당해줍시다
