@@ -1,0 +1,21 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <div id="container">
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="member : ${members}">
+                        <td th:text="${member.id}"></td>
+                        <td th:text="${member.name}"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <a href="/">to main page</a>
+    </body>
+</html>

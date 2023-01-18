@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
         "boot"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
 }
