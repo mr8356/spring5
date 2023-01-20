@@ -2,5 +2,6 @@
     "java.project.sourcePaths": [
         "boot"
     ],
-    "java.compile.nullAnalysis.mode": "disabled"
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
